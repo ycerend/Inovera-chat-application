@@ -1,0 +1,32 @@
+{
+	_id: ObjectId ,
+	Name: "Bob" ,
+	Surname: "Smith" ,
+	email: "b.smith@example.com"
+	password: "abcdefg"
+	menus: {
+
+		line1: "Home",
+		line2: "Profile",
+		line3: "Messages",
+		line4: "User Settings",
+		line5: "Menu Option 1",
+		line6: "Menu Option 2",
+		line7: "Menu Option 3",
+		line8: "Menu Option 4",
+	},
+	loginHistory: [
+
+		{
+			time:"14.49",
+			date:"06.07.2017",
+		},
+		{
+			time:"12.06",
+			date:"04.07.2017",
+		},
+
+		//etc....
+	]
+
+};
